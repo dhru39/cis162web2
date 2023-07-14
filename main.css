@@ -44,22 +44,61 @@ nav.horizontalNav a {
     padding: 20px;
 }
 
-section {
+div {
     background-color: #14eef4;
+}
+
+div > img {
+    min-height: fit-content;
+    min-width: fit-content;
+    padding: 5%;
+    border-radius: 100px;
+    float: inline-end;
+}
+
+div > p {
+    text-align: center;
+    background-color: #09062b;
+    padding: 5%;
+    border-left: 2px solid #14eef4;
+    border-right: 2px solid #14eef4;
+    border-bottom: 2px solid #14eef4;
     border-radius: 10px;
 }
 
-section > img {
-    padding: 5%;
-    border-radius: 100px;
-}
-
-section > p {
-    text-align: center;
-    background-color: #f46ae7;
-    padding: 5%;
-}
-
 footer {
-    padding-top: 25px;
+    clear: left;
+}
+
+footer > section {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+    min-width: 640px;
+    width: 100%;
+    background-color: #09062b;
+    border-left: 2px solid #f46ae7;
+    border-right: 2px solid #f46ae7;
+}
+
+footer > section > h3{
+    font-size: 25px;
+  text-decoration: underline;
+}
+
+footer > section > ul > li {
+    display: block;
+    float: left;
+    width: 30%;
+}
+
+footer > section > ul > li > a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer > section > p {
+    text-align: left;
 }

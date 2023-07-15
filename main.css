@@ -81,6 +81,9 @@ aside > h1 {
 }
 
 div > img {
+    display: flex;
+    max-width: 100%;
+    height: auto;
     background-color: #14eef4;
     padding: 25px;
     border-radius: 100px;

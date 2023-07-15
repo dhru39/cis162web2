@@ -103,6 +103,11 @@ footer > h2 {
     text-decoration: underline;
 }
 
+footer > ul > li > a {
+    text-decoration: none;
+    color: #fff;
+}
+
 footer > ul > li {
     text-align: left;
     list-style: none;

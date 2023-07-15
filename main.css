@@ -12,6 +12,7 @@ body {
     font-family: 'Cinzel Decorative', sans-serif;
     display: grid;
     gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(90%, 1fr));
     grid-template-areas: 
     "header"
     "navbar"

@@ -118,6 +118,32 @@ footer > ul > li {
     width: 30%;
 }
 
+div.gallery {
+    margin: 5px;
+    border: 1px solid #14eef4;
+    float: left;
+    width: 30%;
+}
+  
+div.gallery:hover {
+    border: 1px solid #f46ae7;
+}
+  
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+  
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+div.desc > a {
+    color: yellow;
+    text-decoration: none;
+}
+
 section#section1 {
     width: 100%;
     border: 2px solid #14eef4;

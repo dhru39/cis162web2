@@ -1,4 +1,4 @@
-* {margin: 0; padding: 0;}
+* {margin: 0; padding: 0; font-family: 'Cinzel Decorative', sans-serif; }
 
 body {
     text-align: center;
@@ -9,7 +9,6 @@ body {
     width: 90%;
     background-color: #09062b;
     color: white;
-    font-family: 'Cinzel Decorative', sans-serif;
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(auto-fill, minmax(90%, 1fr));
@@ -117,4 +116,87 @@ footer > ul > li {
     list-style: none;
     float: left;
     width: 30%;
+}
+
+section#section1 {
+    width: 100%;
+    border: 2px solid #14eef4;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+section#section2 {
+    width: 100%;
+    border: 2px solid #14eef4;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+section > input {
+    width: 25%;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+    border: 2px solid #14eef4;
+}
+
+section > h2 {
+    padding: 10px;
+}
+
+input#fnames {
+    background-color: #140d5b;
+}
+
+input#lnames {
+    background-color: #140d5b;
+}
+
+input#date {
+    background-color: #140d5b;
+}
+
+input#userr {
+    background-color: #140d5b;
+}
+
+input#userl {
+    background-color: #140d5b;
+}
+
+input#pwdr {
+    background-color: #140d5b;
+}
+
+input#pwdl {
+    background-color: #140d5b;
+}
+
+input#repwd {
+    background-color: #140d5b;
+}
+
+input#email {
+    background-color: #140d5b;
+}
+
+input#pnumbers {
+    background-color: #140d5b;
+}
+
+input#resetr {
+    color: black;
+}
+
+input#submitr {
+    color: black;
+}
+
+input#submitl {
+    color: black;
+}
+
+input:hover {
+    border: 2px solid #f46ae7;
+    border-radius: 10px;
 }

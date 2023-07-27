@@ -231,3 +231,21 @@ input:hover {
     color: #fff;
     text-align: justify;
 }
+
+.accordion-button {
+    background-color: #09062b;
+    border: 1px solid #14eef4;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.accordion-body {
+    background-color: #09062b;
+    color: #fff;
+    border: 1px solid #f46ae7;
+    border-radius: 10px;
+}
+
+.d-block {
+    border: 2px solid #f46ae7;
+}

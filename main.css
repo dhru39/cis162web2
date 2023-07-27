@@ -226,3 +226,8 @@ input:hover {
     border: 2px solid #f46ae7;
     border-radius: 10px;
 }
+
+.card-text {
+    color: #fff;
+    text-align: justify;
+}
